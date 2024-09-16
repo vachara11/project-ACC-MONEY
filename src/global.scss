@@ -1,0 +1,97 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+
+
+img {
+  position: absolute;
+  bottom: 0px;
+
+  width: 84%;
+  transition: 0.5s ease;
+  opacity: 0;
+
+  font-size: 20px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  opacity: 1;
+  left: 8%;
+  top: 24%;
+}
+
+
+
+
+h1{
+font-size:24px;
+color: rgb(0, 0, 0);
+
+}
+
+h2{
+  font-size:18px;
+  color: rgba(35, 34, 34, 0.58);
+  
+  }
+ion-datetime{
+  margin-right: auto; margin-left: auto;
+  margin-top: 6em; margin-bottom: auto;
+ color:black;
+
+  border-radius: 16px;
+
+}
+ion-toolbar{
+  margin-right: auto; margin-left: auto;
+opacity: 100%;
+
+}
+ion-content{
+  margin-right: auto; margin-left: auto;
+opacity: 100%;
+
+}
+ion-button::after{
+color: #2dd55b;
+
+
+
+}
+
+
+
+
+

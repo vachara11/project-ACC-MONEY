@@ -1,0 +1,7 @@
+{
+  "name": "Accmoey",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
